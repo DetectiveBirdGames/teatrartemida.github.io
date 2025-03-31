@@ -1,0 +1,37 @@
+.footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--color-light);
+}
+
+.footer-credits {
+    opacity: 0.7;
+    font-size: 1rem;
+    color: var(--color-dark);
+}
+
+.footer-author {
+    opacity: 0.7;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: var(--color-dark);
+}
+
+.footer-link {
+    color: var(--color-dark);
+
+    -webkit-text-shadow: 0.3rem 0.3rem #DBBBF5;
+    text-shadow: 0.3rem 0.3rem #DBBBF5;
+}
+
+.footer-link:hover {
+    color: #DBBBF5;
+    -webkit-text-shadow: 0.3rem 0.3rem var(--color-dark);
+    text-shadow: 0.3rem 0.3rem var(--color-dark);
+}
+
+@media (max-width: 380px) {
+    .footer-credits, .footer-author {
+        font-size: 0.8rem;
+    }
+}

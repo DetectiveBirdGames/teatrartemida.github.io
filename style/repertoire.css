@@ -1,0 +1,77 @@
+.repertoire {
+
+}
+
+.repertoire-text {
+    text-align: center;
+}
+
+.repertoire-text-heading {
+
+}
+
+.repertoire-text-description {
+    font-size: 1rem;
+    width: 70%;
+    margin: 1rem auto 0;
+}
+
+.repertoire-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 4rem;
+    gap: 4rem;
+    margin-top: 3rem;
+}
+
+.repertoire-card {
+    width: 40%;
+    border: 2px solid var(--color-light);
+    border-radius: 15px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.repertoire-card:hover {
+    -moz-box-shadow:0 0 30px var(--color-light);
+    -webkit-box-shadow:0 0 30px var(--color-light);
+    box-shadow:0 0 30px var(--color-light);
+}
+
+.repertoire-card-date {
+
+}
+
+.repertoire-card-name {
+    font-weight: 700;
+}
+
+.repertoire-card-image {
+    margin: 1rem auto 0;
+    width: 80%;
+    aspect-ratio: 1/1;
+}
+
+.repertoire-card-description {
+    margin: 1rem auto 0;
+    width: 80%;
+}
+
+@media (max-width: 560px) {
+    .repertoire-cards {
+        flex-direction: column;
+    }
+
+    .repertoire-card {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 380px) {
+    .repertoire-card {
+        width: 80%;
+    }
+}

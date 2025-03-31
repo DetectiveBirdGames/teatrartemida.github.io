@@ -1,0 +1,27 @@
+.header {
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.header-name {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.header-description {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    --accent-color: #DBBBF511;
+    font-weight: 400;
+}
+
+.header-description:hover {
+    --accent-color: #DBBBF5FF;
+}
+
+.header-glowing {
+    -webkit-text-shadow: 0.1rem 0.3rem var(--accent-color);
+    text-shadow: 0.1rem 0.3rem var( --accent-color);
+}

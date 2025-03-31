@@ -1,0 +1,96 @@
+@font-face {
+    font-weight: 400; /* Соответствует значению normal */
+    font-family: 'Cormorant Unicase';
+    src: url("../fonts/CormorantUnicase-Regular.ttf");
+}
+
+@font-face {
+    font-weight: 700; /* Соответствует значению bold */
+    font-family: 'Cormorant Unicase';
+    src: url("../fonts/CormorantUnicase-Bold.ttf");
+}
+
+@font-face {
+    font-weight: 300;
+    font-family: 'Cormorant Unicase';
+    src: url("../fonts/CormorantUnicase-Light.ttf");
+}
+
+.wrapper {
+    max-width: 1200px; /* Ограничение ширины */
+    margin: 0 auto; /* Центрирование */
+    padding: 0 20px; /* Немного отступов по бокам для мобильных */
+}
+
+@media (min-width: 1600px) {
+    .wrapper {
+        max-width: 1400px; /* Можно увеличить для ультрашироких экранов */
+    }
+}
+
+:root {
+    --сormorant-font: 'Cormorant Unicase', sans-serif;
+    --color-light: #F6E8EA;
+    --color-dark: #22181C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--color-light);
+    font-family: var(--сormorant-font), sans-serif;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 20px;
+}
+
+body {
+    background-color: var(--color-dark);
+}
+
+.block {
+    padding: 3rem 1rem;
+}
+
+.block-heading {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+@media (max-width: 950px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 820px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 730px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 650px) {
+    html {
+        font-size: 12px;
+    }
+
+    .wrapper {
+        padding: 0;
+    }
+}

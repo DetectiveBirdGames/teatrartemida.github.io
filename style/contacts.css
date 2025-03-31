@@ -1,0 +1,26 @@
+.contacts {
+    text-align: center;
+}
+
+.contacts-heading {
+
+}
+
+.contacts-description {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.contacts-address {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.contacts-phone {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.contacts-bold {
+    font-weight: 700;
+}
