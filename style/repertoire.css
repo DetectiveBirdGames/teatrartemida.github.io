@@ -31,9 +31,7 @@
     border-radius: 15px;
     padding: 1rem;
     text-align: center;
-}
 
-.repertoire-card:hover {
     -moz-box-shadow:0 0 30px var(--color-light);
     -webkit-box-shadow:0 0 30px var(--color-light);
     box-shadow:0 0 30px var(--color-light);

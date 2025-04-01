@@ -21,11 +21,12 @@
     aspect-ratio: 1/1;
 }
 
-.managers-card-image >img:hover {
+.managers-card-image > img {
     -moz-box-shadow:0 0 30px var(--color-dark);
     -webkit-box-shadow:0 0 30px var(--color-dark);
     box-shadow:0 0 30px var(--color-dark);
 }
+
 
 .managers-card-name {
     margin-top: 1rem;
